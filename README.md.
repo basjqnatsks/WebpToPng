@@ -1,1 +1,4 @@
-
+To install:
+  Place install.bat and py file in a location of your choosing , then run the install.bat
+  this will create a scheduled task to automatically run the py file on bootup.
+  please verify line 62 is the correct downloads path on your computer and you are good to go!
