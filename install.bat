@@ -35,7 +35,7 @@ if "%errorlevel%"=="0" (
 )
 
 :: Prepare the schtasks command for debugging
-set "schtask_command=schtasks /create /tn "%task_name%" /tr "python \"%python_script%\"" /sc onlogon /rl highest /f"
+set "schtask_command=schtasks /create /tn "%task_name%" /tr "pyw \"%python_script%\"" /sc onlogon /rl highest /f"
 
 :: Print the schtasks command for debugging
 echo Debug: Executing the following schtasks command:
